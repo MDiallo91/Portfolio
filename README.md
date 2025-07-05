@@ -1,12 +1,37 @@
-# React + Vite
+# 🌐 Portfolio Personnel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio, un site vitrine réalisé avec React, Vite, Tailwind CSS, TypeScript et Lucide Icons. Ce projet présente mes compétences, mes réalisations et mes services.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Démarrage du projet en local
 
-## Expanding the ESLint configuration
+### Prérequis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Installer [Node.js](https://nodejs.org/) sur votre machine.
+
+### Étapes pour lancer le projet
+
+1. **Installer les dépendances**  
+   Ouvrez un terminal à la racine du projet puis lancez :  
+   ```bash
+   npm install
+
+2. ### Démarrer le serveur de développement
+npm run dev
+Le serveur démarre et vous indique l’URL locale (ex : http://localhost:5173).
+
+ 3. **Version en ligne**
+Le portfolio est également accessible en ligne ici :
+https://ton-lien.vercel.app
+
+4. ### Organisation du projet
+src/
+├── assets/           # Images et ressources statiques
+├── components/       # Composants React réutilisables
+├── App.tsx           # Composant principal racine
+└── main.tsx          # Point d’entrée de l’application (montage React)
+
+# 📄 Licence
+Ce projet est open source et libre d’utilisation.
+N’hésitez pas à le forker, le modifier et le partager.
